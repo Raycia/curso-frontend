@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Convite para um café</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/cafe.css">
+</head>
+<body>
+	<header>
+		<div class="header-container">
+			<h1>Convite para um café</h1>
+            <p>Olá, [nome do cliente]!</p>
+             <p>Gostaria de convidá-lo(a) para um café no próximo [dia e horário] para conversarmos sobre [assunto que será discutido]. Seria uma ótima oportunidade para nos conhecermos melhor e trocarmos ideias.</p>
+            <p>Por favor, confirme sua presença até [data limite] para que possamos organizar o encontro.</p>
+            <p>Atenciosamente,</p>
+		</div>
+	</header>
+
+	<main>
+		<div class="image-container">
+			<img src="./images/cafe.jpg" alt="Imagem de um café">
+		</div>
+
+		<div class="form-container">
+			<form action="#" method="POST">
+				<label for="name">Nome:</label>
+				<input type="text" id="name" name="name" required>
+
+				<label for="email">E-mail:</label>
+				<input type="email" id="email" name="email" required>
+
+				<label for="datetime">Data e Horário:</label>
+				<input type="datetime-local" id="datetime" name="datetime" required>
+
+				<label for="subject">Assunto:</label>
+				<input type="text" id="subject" name="subject" required>
+
+				<button type="submit">Enviar</button>
+			</form>
+		</div>
+	</main>
+
+    <footer>
+		<p>Criado por Raycia</p>
+	</footer>
+</body>
+</html>
